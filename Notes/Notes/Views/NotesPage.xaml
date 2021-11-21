@@ -21,14 +21,16 @@
         <!-- Define the appearance of each item in the list -->
         <CollectionView.ItemTemplate>
             <DataTemplate>
-                <StackLayout>
-                    <Label Text="{Binding Text}"
+                <Frame>
+                    <StackLayout>
+                        <Label Text="{Binding Text}"
                            TextColor="#fff"
                            FontSize="Small"/>
-                    <Label Text="{Binding Date}"
+                        <Label Text="{Binding Date}"
                            TextColor="Silver"
                            FontSize="Micro" />
-                </StackLayout>
+                    </StackLayout>
+                </Frame>
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>

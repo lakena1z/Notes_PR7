@@ -7,16 +7,16 @@
     <StackLayout Margin="30" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
         <StackLayout  VerticalOptions="FillAndExpand">
             <!-- top controls -->
-            <Editor VerticalOptions="FillAndExpand" TextColor="#fff" Placeholder="Enter your note"
+            <Editor VerticalOptions="FillAndExpand" TextColor="#fff" Placeholder="Писать сюда"
                     Text="{Binding Text}"/>
         </StackLayout>
         <StackLayout VerticalOptions="End">
             <!-- bottom controls -->
             <Grid ColumnDefinitions="*,*">
-                <Button Text="Save"
+                <Button Text="Сохранить"
                         Clicked="OnSaveButtonClicked" />
                 <Button Grid.Column="1"
-                        Text="Delete"
+                        Text="Удалить"
                         Clicked="OnDeleteButtonClicked"/>
             </Grid>
         </StackLayout>

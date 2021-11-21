@@ -21,7 +21,7 @@
                             <Span Text="Заметки"
                                   FontAttributes="Bold"
                                   FontSize="22" />
-                            <Span Text=" a201121_7" />
+                            <Span Text=" a211121_7.1 Public" />
                         </FormattedString.Spans>
                     </FormattedString>
                 </Label.FormattedText>
@@ -32,9 +32,9 @@
                 <Button Text="github"
                     Clicked="OnButtonClicked" />
             </StackLayout>
-            
+
             <StackLayout VerticalOptions="FillAndExpand"/>
-            
+
             <StackLayout>
                 <Label HorizontalOptions="CenterAndExpand">
                     <Label.FormattedText>

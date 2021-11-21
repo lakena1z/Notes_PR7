@@ -33,5 +33,14 @@
                     Value="10" />
         </Style>
 
+        <Style TargetType="Frame">
+            <Setter Property="BackgroundColor"
+                    Value="{StaticResource AppPrimaryColor}" />
+            <Setter Property="CornerRadius"
+                    Value="10" />
+            <Setter Property="Padding"
+                    Value="15" />
+        </Style>
+
     </Application.Resources>
 </Application>
